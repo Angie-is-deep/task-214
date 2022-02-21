@@ -20,10 +20,23 @@ html {
 }
 
 .main {
-  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  padding: 50px;
+}
+
+ul {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li {
+  margin: 10px;
 }
