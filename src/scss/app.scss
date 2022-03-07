@@ -21,9 +21,10 @@ html {
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  align-items: center;
   margin-top: 20px;
+  justify-content: center;
+  height: 100vh;
 }
 
 .box {
@@ -34,25 +35,10 @@ html {
   padding: 50px;
 }
 
-ul {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-li {
-  margin: 10px;
-  color: $black;
-  font-weight: 600;
-}
-
 .content {
   margin-top: 20px;
 }
 
-.home {
-  display: flex;
-  justify-content: center;
-  img {
-    width: 100px;
-  }
+a i {
+  margin-right: 0.3em;
 }
